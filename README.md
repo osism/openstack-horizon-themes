@@ -30,3 +30,9 @@ Each provider of a theme is fully responsible and liable for the content
 in their theme.
 
 We reserve the right to remove themes in the future.
+
+## Sample screenshots
+
+### regiocloud
+
+![Horizon login](screenshots/regiocloud.png?raw=true "Horizon login")
