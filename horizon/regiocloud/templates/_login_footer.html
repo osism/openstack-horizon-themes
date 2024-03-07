@@ -3,3 +3,13 @@
   | &nbsp;<a href="https://regiocloud.github.io/impressum">Impressum</a>
   | &nbsp;<a href="https://regiocloud.github.io/datenschutz">Datenschutz</a>
 </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  try {
+    const params = new URLSearchParams(location.search);
+    document.getElementById('id_username').value = params.get('username')
+    document.getElementById('id_domain').value = params.get('domain')
+  } catch (e) {}
+});
+</script>
